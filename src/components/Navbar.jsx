@@ -9,7 +9,7 @@ const Navbar = ({ setCategory }) => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        choose your interest
+        Categories
       </button>
       <ul className="dropdown-menu">
         <li>
