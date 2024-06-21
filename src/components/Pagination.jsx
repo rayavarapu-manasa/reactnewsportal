@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pagination = ({ currentPage, onPageChange }) => {
-  const totalPages = 2;
+  const totalPages = 5;
 
   const handleClick = (page) => {
     if (page >= 1 && page <= totalPages) {
